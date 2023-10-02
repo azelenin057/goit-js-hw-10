@@ -18,7 +18,10 @@
     "url": "https://github.com/goitacademy/parcel-project-template/issues"
   },
   "dependencies": {
+    "@thatapicompany/thecatapi": "^1.0.2",
     "@vimeo/player": "^2.20.1",
+    "axios": "^1.5.1",
+    "cat-api": "^1.2.1",
     "flatpickr": "^4.6.13",
     "lodash.throttle": "^4.1.1",
     "modern-normalize": "^1.1.0",
@@ -27,9 +30,14 @@
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.6.0",
+    "buffer": "^6.0.3",
     "parcel": "^2.6.0",
     "parcel-reporter-clean-dist": "^1.0.4",
-    "posthtml-include": "^1.7.4"
+    "path-browserify": "^1.0.1",
+    "posthtml-include": "^1.7.4",
+    "process": "^0.11.10",
+    "stream-http": "^3.2.0",
+    "url": "^0.11.3"
   },
   "browserslist": "> 0.5%, last 2 versions, not dead"
 }
